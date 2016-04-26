@@ -10,6 +10,5 @@ from sklearn.linear_model import LogisticRegression
 from six.moves.urllib.request import urlretrieve
 from six.moves import cPickle as pickle
 
-
-
-print ("done importing")
+# Config the matlotlib backend as plotting inline in IPython
+matplotlib inline
